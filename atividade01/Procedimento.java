@@ -23,4 +23,6 @@ public class Procedimento {
 
         }
     }
+
+    public static String nome;
 }
