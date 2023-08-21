@@ -31,4 +31,15 @@ public class ListaTarefa {
     public void obterDescricoesTarefas(){
         System.out.println(tarefaList);
     }
+
+    public static void main(String[] args) {
+
+        ListaTarefa listaTarefa = new ListaTarefa();
+
+        listaTarefa.adicionarTarefa("primeira tarefa");
+        listaTarefa.adicionarTarefa("primeira tarefa");
+        listaTarefa.adicionarTarefa("segunda tarefa");
+
+        listaTarefa.obterDescricoesTarefas();
+    }
 }
